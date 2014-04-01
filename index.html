@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lindeman</title>
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/ruutu.css">
+<link rel="stylesheet" href="tyyli.css">
+
+
+</head>
+<body>
+
+<header>
+<div class="rivi">
+<div class="ruutu-12-tablet">
+<h4>LOGO</h4>
+</div>
+</header>
+
+<div class="intro">
+<div class="rivi">
+<div class="ruutu-12-tablet">
+<h1>Lindeman on keskeneräinen<br />Made in Helsinki</h1>
+<h3></h3>
+</div>
+</div>
+</div>
+
+<section> 
+<div class="rivi">
+<div class="ruutu-12-laptop">
+<h2>?</h2>
+<p>webbisivujen esittämiseen tarkoitettu responsiivinen kehys, joka hyödyntää ruudukkomaista rakennetta (eng. grid layout/grid system). Lindeman on tehty yksikertaiseksi, helposti lähestyttäväksi ja siitä on hyvä aloittaa kaikenkokoiset nettisivuprojektit. Toisinsanoen tämä on erittäin raaka versio, josta löytyy mielestäni ne ihan välttämättömimmät ominaisuudet nettisivun rakentamiseen. On myös hyvä pitää mielessä, että tämä kehys ottaa mobiililaitteiden rajallisuuden huomioon ja on suunniteltu palvelemaan ensisijaisesti päätelaitteita joissa on pieni näyttö (engl. Mobile First). Tämä ei tarkoita sitä että sivusto ei toimisi isolla näytöllä... päinvastoin. Jos katsot tätä sivua isolla näytöllä huomaat että se näyttää järkevältä, eri elementit ovat ryhdikkäästi paikoillaan. Tyylitiedostoihin tulevat muutokset tulevat kuitenkin voimaan ensinnä pienelle näyttökoolle ja periytyvät siitää suurempiin näyttökokoihin, ellei toisin määritellä.</p>
+<p>Lindeman on huomattavasti kevyempi ja vaatimattomampi tekele kuin esimerkiksi Twitter Bootstrap tai Zurb Foundation. Tarkoituksena on auttaa käyttäjää ymmärtämään responsiivisen webbisivun perustetita. Kun ymmärrät kuinka sivusto on rakennettu ja kuinka se mukautuu eri päätelaitteille, sinun on helppo aloittaa kaikenkokoiset nettisivuprojektit tästä rungosta. Kopioi Lindeman omalle koneellesi ja harjoittele sillä. Leikkaa, liimaa, kopioi ja erehdy. Huomaat pian että osaat tehdä responsiivisen nettisivun ihan omasta päästä.</p>
+</div>
+</section>
+    
+<section>
+<div class="rivi">        
+<div class="ruutu-4-laptop">
+<h2>OTSIKOT</h2>
+<p>Otsikko -elementtien kirjasinkoko ja marginaali on asetettu niin että ne näyttävät hyvltä ja erottuvat oikealla tavalla suhteessa muihin elementteihin.</p>
+<h1>h1 Otsikko</h1>
+<h2>h2 Otsikko</h2>
+<h3>h3 Otsikko</h3>
+<h4>h4 Otsikko</h4>  
+</div>
+
+<div class="ruutu-4-laptop">
+
+<h2>LISTAT</h2>
+<p>Lista elementit sisentyvät isäntäelementin marginaalien sisäpuolelle.</p>
+<h6>Numeroitu Lista</h6>
+<ol>
+<li>eka</li>
+<li>toka</li>
+<li>kolmas</li>
+</ol>
+
+<h6>Numeroimaton lista</h6>
+<ul>
+<li>eka</li>
+<li>toka</li>
+<li>kolmas</li>
+</ul>
+
+</div>
+<div class="ruutu-4-laptop">
+
+<h2>PAINIKE JA LINKKI</h2>
+<p>Painike elementin oletustyyli harvoin sopii tyylillisesti moderniin ulkoasuun. Tässä kuitenkin aika kivannäköinen nappula. Muuta väriä tai pyöristä kulmia mieltymystesi mukaan. Painikkeen koko kannattaa aina pitää sen verran isona, että sormi osuu siihen kun sivustoa selataan mobiililaitteella.</p>
+<button title="Kyllä">Painike</button>
+<p>A -elemetti on tyylitelty myös vastaamaan hieman modernimpaa tyyliä.</p>
+
+<a href="#">Linkki</a>
+
+</div>
+</div>
+</section>
+    
+<section>
+<div class="rivi">
+<h2>RUUDUKKO</h2>
+<p>Nyt tarkkana. Käytössä oleva ruudukko voidaan asettaa tottelemaan viittä eri näyttökokoa. Alla olevat ruudukkoelementit kuuluvat desktop luokkaan, jonka vähimmäisleveys on 75em (1200px). Kun näytön koko tuosta kapenee, niin kaikki ruudukon elementit asettuvat allekkain ja mukautuvat näytön kokoon.</p> 
+<p>Muuta selainikkunan kokoa, niin huomaat mistä on kyse.</p>
+    
+<div class="ruutu-12-desktop"><div class="box"><p>ruutu-12-desktop</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-6-desktop"><div class="box"><p>ruutu-6-desktop</p></div></div>
+<div class="ruutu-6-desktop"><div class="box"><p>ruutu-6-desktop</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-4-desktop"><div class="box"><p>ruutu-4-desktop</p></div></div>
+<div class="ruutu-4-desktop"><div class="box"><p>ruutu-4-desktop</p></div></div>
+<div class="ruutu-4-desktop"><div class="box"><p>ruutu-4-desktop</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-3-desktop"><div class="box"><p>ruutu-3-desktop</p></div></div>
+<div class="ruutu-3-desktop"><div class="box"><p>ruutu-3-desktop</p></div></div>
+<div class="ruutu-3-desktop"><div class="box"><p>ruutu-3-desktop</p></div></div>
+<div class="ruutu-3-desktop"><div class="box"><p>ruutu-3-desktop</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-2-desktop"><div class="box"><p>ruutu-2-desktop</p></div></div>
+<div class="ruutu-2-desktop"><div class="box"><p>ruutu-2-desktop</p></div></div>
+<div class="ruutu-2-desktop"><div class="box"><p>ruutu-2-desktop</p></div></div>
+<div class="ruutu-2-desktop"><div class="box"><p>ruutu-2-desktop</p></div></div>
+<div class="ruutu-2-desktop"><div class="box"><p>ruutu-2-desktop</p></div></div>
+<div class="ruutu-2-desktop"><div class="box"><p>ruutu-2-desktop</p></div></div>
+</div>
+    
+<div class="rivi">
+<h2>...</h2>
+<p>Voit siis määrittää missä näyttökoossa ruudukon elementit asettuvat allekkain. Alla olevat ruudukkoelemenit kuuluvat tablet -luokkaan, jonka vähimmäisleveys on 48em (768px). Ruudukon elementit asettuvat allekkain vasta kun näytön koko menee alle tablet -luokan vähimmäisleveyden.</p>
+<p>Muuta selainikkunan leveyttä ja huomaat eron.</p>
+    
+<div class="ruutu-12-tablet"><div class="box"><p>ruutu-12-tablet</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-6-tablet"><div class="box"><p>ruutu-6-tablet</p></div></div>
+<div class="ruutu-6-tablet"><div class="box"><p>ruutu-6-tablet</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-4-tablet"><div class="box"><p>ruutu-4-tablet</p></div></div>
+<div class="ruutu-4-tablet"><div class="box"><p>ruutu-4-tablet</p></div></div>
+<div class="ruutu-4-tablet"><div class="box"><p>ruutu-4-tablet</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-3-tablet"><div class="box"><p>ruutu-3-tablet</p></div></div>
+<div class="ruutu-3-tablet"><div class="box"><p>ruutu-3-tablet</p></div></div>
+<div class="ruutu-3-tablet"><div class="box"><p>ruutu-3-tablet</p></div></div>
+<div class="ruutu-3-tablet"><div class="box"><p>ruutu-3-tablet</p></div></div>
+</div>
+
+<div class="rivi">
+<div class="ruutu-2-tablet"><div class="box"><p>ruutu-2-tablet</p></div></div>
+<div class="ruutu-2-tablet"><div class="box"><p>ruutu-2-tablet</p></div></div>
+<div class="ruutu-2-tablet"><div class="box"><p>ruutu-2-tablet</p></div></div>
+<div class="ruutu-2-tablet"><div class="box"><p>ruutu-2-tablet</p></div></div>
+<div class="ruutu-2-tablet"><div class="box"><p>ruutu-2-tablet</p></div></div>
+<div class="ruutu-2-tablet"><div class="box"><p>ruutu-2-tablet</p></div></div>
+</div>
+    
+<div class="rivi">
+<h2>...</h2>
+<p>Kaiken kaikkiaan ruudukon käyttäytymistä voi määritellä neljässä eri näyttökoossa;
+<ol>
+<li>ruutu-X-desktop (yli 75 em)</li>
+<li>ruutu-X-laptop (yli 62em)</li>
+<li>ruutu-X-tablet (yli 48em)</li>
+<li>ruutu-X-phone (alle 48em)</li>
+<li>ruutu-100 (alle 30em)</li>
+</ol>
+<br />
+jossa "X" on ruudun peittoalue.
+</p>
+</div>
+</section>
+
+
+<footer>
+<p>Täällä lymyilee footer -elementti.</p>
+<small>Lindeman on erään HAAGA-HELIA ammattikorkeakoulun opiskelijan projekti.</small></footer>
+</body>
+</html>
