@@ -10,8 +10,6 @@ padding: 0;
 }
 
 .rivi {
-width: 100%;     /* JOS MUUTAT TÄMÄN ELEMENTIN LEVEYTTÄ, NIIN TARKISTA ETTÄ section -ELEMENTIN LEVEYS ON SAMA */
-max-width:75em; /* JOS MUUTAT TÄMÄN ELEMENTIN LEVEYTTÄ, NIIN TARKISTA ETTÄ section -ELEMENTIN LEVEYS ON SAMA */
 margin:0 auto;
 }
 
@@ -39,16 +37,15 @@ content: "";
 display: table;
 clear: both;
 }
-.container:before,
-.container:after {
+.nyytti:before,
+.nyyttii:after {
 display: table;
 content: " ";
 }
 
-.container:after {
+.nyytti:after {
 clear: both;
 }
-
 
 @media only screen {
 .kolumni-1-phone { width: 8.3333333333333%; }
