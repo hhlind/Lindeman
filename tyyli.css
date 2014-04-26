@@ -70,7 +70,6 @@ img {
 height: auto;
 max-width: 100%;
 display: block;
-margin: 0 auto;
 }
 
 blockquote {
@@ -99,7 +98,8 @@ max-width: 73em;
 }
 
 .box {
-background-color: #b2ccff;
+background-color: tomato;
+color: #FFF;
 padding: 0.625em 0.625em;
 text-align: center;
 }
@@ -107,6 +107,7 @@ text-align: center;
 header {
 width: 100%;
 margin: 0 auto;
+text-align: center;
 }
 
 .esittely {
@@ -117,14 +118,13 @@ color: white;
 }
 
 section {
-border-bottom: 1px solid silver;
+border-bottom: 1px solid tomato;
 margin:0 auto;
 }
 
 section:last-of-type {border-bottom: none;}
 
 button {
-
 background-color: green;
 border: 1px solid green;
 color: white;
@@ -151,6 +151,40 @@ clear: both;
 margin: 0.625em 0;
 padding: 2em 0;
 text-align: center;
+}
+
+/*------------------------------------------- 
+      LOMAKE-ELEMENTIT
+-------------------------------------------*/
+
+input,
+textarea {
+
+display: block;
+border: 1px solid tomato;
+margin: 0;
+padding: 1%;
+margin-bottom: 2em;
+outline: none;
+width: 100%;
+}
+
+input[type=submit] {
+background: green;
+border: none;
+color: #FFF;
+cursor: pointer;
+display: inline-block;
+padding: 1.250em 0.938em;
+width: auto;
+}
+
+input {
+max-width: 12.500rem;
+}
+
+textarea {
+max-width: 25.000rem;
 }
 
 /*------------------------------------------- 
