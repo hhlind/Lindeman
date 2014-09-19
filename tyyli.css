@@ -290,7 +290,7 @@ clear: both;
 }
 
 @media only screen and (max-width: 30em){
-.kolumni-100 { width:100%;}
+.kolumni-xs { width:100%;}
 }
 
 /*------------------------------------------- 
