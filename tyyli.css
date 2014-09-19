@@ -188,7 +188,7 @@ max-width: 25.000rem;
 }
 
 /*------------------------------------------- 
-      RUUDUKON TYYLIT
+      RUUDUKON TYYLIT (MUOKKAA HARKITEN)
 -------------------------------------------*/
 
 .rivi {
@@ -230,63 +230,63 @@ clear: both;
 }
 
 @media only screen {
-.kolumni-1-phone { width: 8.3333333333333%; }
-.kolumni-2-phone { width: 16.666666666667%; }
-.kolumni-3-phone { width: 25%; }
-.kolumni-4-phone { width: 33.333333333333%; }
-.kolumni-5-phone { width: 41.666666666667%; }
-.kolumni-6-phone { width: 50%; }
-.kolumni-7-phone { width: 58.333333333333%; }
-.kolumni-8-phone { width: 66.666666666667%; }
-.kolumni-9-phone { width: 75%; }
-.kolumni-10-phone { width: 83.333333333333%; }
-.kolumni-11-phone { width: 91.666666666667%; }
-.kolumni-12-phone { width: 100%; }
+.kolumni-1-s { width: 8.3333333333333%; }
+.kolumni-2-s { width: 16.666666666667%; }
+.kolumni-3-s { width: 25%; }
+.kolumni-4-s { width: 33.333333333333%; }
+.kolumni-5-s { width: 41.666666666667%; }
+.kolumni-6-s { width: 50%; }
+.kolumni-7-s { width: 58.333333333333%; }
+.kolumni-8-s { width: 66.666666666667%; }
+.kolumni-9-s { width: 75%; }
+.kolumni-10-s { width: 83.333333333333%; }
+.kolumni-11-s { width: 91.666666666667%; }
+.kolumni-12-s { width: 100%; }
 }
 
 @media only screen and (min-width: 48em) {
-.kolumni-1-tablet { width: 8.3333333333333%; }
-.kolumni-2-tablet { width: 16.666666666667%; }
-.kolumni-3-tablet { width: 25%; }
-.kolumni-4-tablet { width: 33.333333333333%; }
-.kolumni-5-tablet { width: 41.666666666667%; }
-.kolumni-6-tablet { width: 50%; }
-.kolumni-7-tablet { width: 58.333333333333%; }
-.kolumni-8-tablet { width: 66.666666666667%; }
-.kolumni-9-tablet { width: 75%; }
-.kolumni-10-tablet { width: 83.333333333333%; }
-.kolumni-11-tablet { width: 91.666666666667%; }
-.kolumni-12-tablet { width: 100%; }
+.kolumni-1-m { width: 8.3333333333333%; }
+.kolumni-2-m { width: 16.666666666667%; }
+.kolumni-3-m { width: 25%; }
+.kolumni-4-m { width: 33.333333333333%; }
+.kolumni-5-m { width: 41.666666666667%; }
+.kolumni-6-m { width: 50%; }
+.kolumni-7-m { width: 58.333333333333%; }
+.kolumni-8-m { width: 66.666666666667%; }
+.kolumni-9-m { width: 75%; }
+.kolumni-10-m { width: 83.333333333333%; }
+.kolumni-11-m { width: 91.666666666667%; }
+.kolumni-12-m { width: 100%; }
 }
 
 @media only screen and (min-width: 62em) {
-.kolumni-1-laptop { width: 8.3333333333333%; }
-.kolumni-2-laptop { width: 16.666666666667%; }
-.kolumni-3-laptop { width: 25%; }
-.kolumni-4-laptop { width: 33.333333333333%; }
-.kolumni-5-laptop { width: 41.666666666667%; }
-.kolumni-6-laptop { width: 50%; }
-.kolumni-7-laptop { width: 58.333333333333%; }
-.kolumni-8-laptop { width: 66.666666666667%; }
-.kolumni-9-laptop { width: 75%; }
-.kolumni-10-laptop { width: 83.333333333333%; }
-.kolumni-11-laptop { width: 91.666666666667%; }
-.kolumni-12-laptop { width: 100%; }
+.kolumni-1-l { width: 8.3333333333333%; }
+.kolumni-2-l { width: 16.666666666667%; }
+.kolumni-3-l { width: 25%; }
+.kolumni-4-l { width: 33.333333333333%; }
+.kolumni-5-l { width: 41.666666666667%; }
+.kolumni-6-l { width: 50%; }
+.kolumni-7-l { width: 58.333333333333%; }
+.kolumni-8-l { width: 66.666666666667%; }
+.kolumni-9-l { width: 75%; }
+.kolumni-10-l { width: 83.333333333333%; }
+.kolumni-11-l { width: 91.666666666667%; }
+.kolumni-12-l { width: 100%; }
 }
 
 @media only screen and (min-width: 75em) {
-.kolumni-1-desktop { width: 8.3333333333333%; }
-.kolumni-2-desktop { width: 16.666666666667%; }
-.kolumni-3-desktop { width: 25%; }
-.kolumni-4-desktop { width: 33.333333333333%; }
-.kolumni-5-desktop { width: 41.666666666667%; }
-.kolumni-6-desktop { width: 50%; }
-.kolumni-7-desktop { width: 58.333333333333%; }
-.kolumni-8-desktop { width: 66.666666666667%; }
-.kolumni-9-desktop { width: 75%; }
-.kolumni-10-desktop { width: 83.333333333333%; }
-.kolumni-11-desktop { width: 91.666666666667%; }
-.kolumni-12-desktop { width: 100%; }
+.kolumni-1-xl { width: 8.3333333333333%; }
+.kolumni-2-xl { width: 16.666666666667%; }
+.kolumni-3-xl { width: 25%; }
+.kolumni-4-xl { width: 33.333333333333%; }
+.kolumni-5-xl { width: 41.666666666667%; }
+.kolumni-6-xl { width: 50%; }
+.kolumni-7-xl { width: 58.333333333333%; }
+.kolumni-8-xl { width: 66.666666666667%; }
+.kolumni-9-xl { width: 75%; }
+.kolumni-10-xl { width: 83.333333333333%; }
+.kolumni-11-xl { width: 91.666666666667%; }
+.kolumni-12-xl { width: 100%; }
 }
 
 @media only screen and (max-width: 30em){
